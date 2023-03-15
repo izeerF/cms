@@ -1,0 +1,17 @@
+{
+    "name": "1119374/3",
+    "autoload": {
+        "psr-4": {
+            "1119374\\3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "."
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "twig/twig": "^3.5"
+    }
+}

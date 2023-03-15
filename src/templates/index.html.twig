@@ -1,0 +1,10 @@
+{% include 'header.html.twig' %}
+<h1>Strona główna</h1>
+{% for post in posts %}
+<img src="{{ post.getFilename() }}">
+<pre>
+{{ post.getTitle() }}
+{{ post.getTimestamp() }}
+</pre>
+{% endfor %}
+{% include 'footer.html.twig' %}
